@@ -1,0 +1,7 @@
+# binaries
+extract_meta
+fragments2mp4
+
+# protobuf generated files
+meta.pb.cc
+meta.pb.h

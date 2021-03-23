@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Mp4Metadata;
+
+message Mp4Metadata
+{
+    bytes ftyp = 1;
+    bytes moov = 2;
+    uint64 mdat_start = 3;
+    uint64 mdat_size = 4;
+}
